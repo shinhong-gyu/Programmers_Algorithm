@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// 에라토스테네스의 체 알고리즘
 int solution(int n) {
     int answer = 0;
     vector<bool> check(n,true);
